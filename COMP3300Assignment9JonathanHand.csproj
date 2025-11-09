@@ -9,7 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Utility\" />
+    <None Remove="Account-Data.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Account-Data.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
