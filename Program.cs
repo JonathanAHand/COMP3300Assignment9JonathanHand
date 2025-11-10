@@ -1,9 +1,11 @@
+using COMP3300Assignment9JonathanHand.View;
+
 namespace COMP3300Assignment9JonathanHand
 {
     internal static class Program
     {
         /// <summary>
-        ///  The main entry point for the application.
+        /// The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()

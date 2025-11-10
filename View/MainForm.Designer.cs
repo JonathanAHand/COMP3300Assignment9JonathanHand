@@ -1,4 +1,4 @@
-﻿namespace COMP3300Assignment9JonathanHand
+﻿namespace COMP3300Assignment9JonathanHand.View
 {
     partial class MainForm
     {
@@ -121,7 +121,7 @@
             Controls.Add(btnLoadFile);
             Name = "MainForm";
             Text = "Assignment 9 by Hand";
-            Load += Form1_Load;
+            Load += MainForm_Load;
             ResumeLayout(false);
         }
 
